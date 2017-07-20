@@ -2,16 +2,17 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  background-color: white;
   font-family: helvetica, arial, sans-serif;
   width: 100%;
+  height: 100%;
 }
 
 .site-header {
   background-image: url("../img/iphone-background.jpg");
   background-size: cover;
   background-color: grey;
-  min-height: 700px;
+  height: 500px;
 }
 
 .nav-bar {
@@ -23,7 +24,6 @@ body {
 .nav-bar ul {
   padding: 5px 5px;
   margin: 0 auto;
-
 }
 
 .nav-bar li.nav-item {
@@ -39,9 +39,42 @@ section.header-content {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding: 50px 0;
 
 }
 
-span.header-intro {
+section.header-content > {
+  flex-grow: 1;
+}
 
+.header-intro {
+  font-size: 1.0em;
+  margin: 30px 0;
+}
+
+.header-sm-title {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.header-lg-title {
+  font-size: 3.0em;
+  font-weight: normal;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style: none;
+}
+
+a.header-link {
+  color: black;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 0 15px;
 }
