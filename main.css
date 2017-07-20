@@ -11,7 +11,7 @@ body {
 .site-header {
   background-image: url("../img/iphone-background.jpg");
   background-size: cover;
-  background-color: grey;
+  background-position: top left;
   height: 500px;
 }
 
@@ -19,6 +19,8 @@ body {
   background-color: black;
   color: white;
   margin: 0 auto;
+  display: inline-block;
+  width: 100%;
 }
 
 .nav-bar ul {
@@ -29,7 +31,7 @@ body {
 .nav-bar li.nav-item {
   display: inline-block;
   font-size: 0.9em;
-  padding: 5px 45px;
+  padding: 5px 46px;
   /*border: 1px solid red; */
   margin: 0 auto;
 }
